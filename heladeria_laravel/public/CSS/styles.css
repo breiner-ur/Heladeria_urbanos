@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f8f6;
+  color: #2d3748;
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border: 1px solid #d8e2dc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+header h1 {
+  color: #2f6f4e;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 50%;
+  border: 3px solid #40916c;
+  object-fit: cover;
+}
+
+header p {
+  font-size: 0.95rem;
+  color: #718096;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #d8e2dc;
+  margin: 25px 0;
+}
+
+p {
+  text-align: center;
+}
+
+.Bienvenida, .promocion, .disponibilidad {
+  background-color: #ffffff;
+  padding: 18px 22px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #d8e2dc;
+  margin-bottom: 15px;
+}
+
+.Bienvenida {
+  border-left: 4px solid #2f6f4e;
+}
+
+.promocion {
+  border-left: 4px solid #d97706;
+}
+
+.disponibilidad {
+  border-left: 4px solid #059669;
+}
+
+.Bienvenida h3, .promocion h3, .disponibilidad h3 {
+  color: #2d3748;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border: 1px solid #d8e2dc;
+  border-radius: 8px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tarjeta:hover {
+  border-color: #2f6f4e;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(47, 111, 78, 0.08);
+}
+
+.tarjeta h2 {
+  color: #2f6f4e;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tarjeta img {
+  width: 100%;
+  max-width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 10px 0;
+  border: 1px solid #e2e8f0;
+}
+
+.tarjeta p {
+  color: #4a5568;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.tarjeta h4 {
+  color: #2f6f4e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.disponibilidad-php {
+  margin-top: 12px;
+  padding: 4px 10px;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  display: inline-block;
+  color: #166534;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #ffffff;
+  border: 1px solid #d8e2dc;
+  border-radius: 8px;
+  padding: 25px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer h3 {
+  color: #2f6f4e;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 0.85rem;
+  color: #718096;
+  margin-bottom: 4px;
+}
